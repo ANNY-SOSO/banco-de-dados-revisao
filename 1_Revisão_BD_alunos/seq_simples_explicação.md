@@ -269,6 +269,13 @@ SET titulo = 'O Hobbit'
 WHERE id = 1;
 ```
 
+```sql
+UPDATE livros 
+SET titulo = 'O Hobbit (capa dura)' 
+WHERE id = 3;
+```
+
+
 Isso aciona o trigger e insere um novo registro na tabela `log_alteracoes`.
 
 ---
